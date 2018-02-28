@@ -8,7 +8,7 @@ html {
 }
 
 header {
-background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/onepunch.jpg); /* Ajout background et filtre */
+background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/newyork.jpg); /* Ajout background et filtre */
 height: 100vh;
 background-size: cover;
 background-position: center;
@@ -24,23 +24,4 @@ background-position: center;
   left:50%;
   transform: translate(-50%,-50%);  /* Elle permet d’effectuer une translation (un déplacement) de l’élément sur les axes X et Y. /// Voir PDF */
   width: 1140px;
-}
-.btn{
-  padding:  10px  30px;
-  border: 1px  solid #fff;
-  boder-radius: 50px;
-  font-weight: 100;
-}
-.btn-hover{
-  border: 1px solid pink;
-}
-.btn-full{
-  background-color: red;
-  color:pink
-}
-.btn-ghost{
-  color: pink;
-}
-.btn-ghost:hover{
-  background-color: black;
 }
