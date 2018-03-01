@@ -1,5 +1,5 @@
 html {
-   background: #2f3542;                               /* couleur de fond */
+   background: ;                               /* couleur de fond */
    font-family:  ‘Lato’,‘Arial’, sans-serif;       /* police de caractère */
    font-weight : 300;                              /* épaisseur de la police */
    font-size: 20px;                                /* taille de la police */
@@ -18,10 +18,17 @@ background-position: center;
   max-width: 1140px;
   margin: 0 auto;
 }
-.manga-text-box {
+text-box {
   position: absolute;  /* positionne l’élément suivant les coordonnées top et left /// Voir PDF */
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);  /* Elle permet d’effectuer une translation (un déplacement) de l’élément sur les axes X et Y. /// Voir PDF */
   width: 1140px;
 }
+
+.logo2{
+  height: 100px;
+  float: left;
+  margin-top: 30px;
+}
+/*-------menu navigation------*/
