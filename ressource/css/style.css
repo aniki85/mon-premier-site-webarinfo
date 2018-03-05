@@ -17,18 +17,19 @@ background-position: center;
 }
 /*section*/
 section{
-  padding:  85px; 0;
+  padding:  85px 0;
 }
 h2{
-  text-aling: center;
-  font-size: 180%;word-spacing: 10px;
+  text-align: center;
+  font-size: 180%;
+  word-spacing: 10px;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
 h2::after{
   display: block;
-  height: 2px
-  width:auto;100px;
+  height: 2px;
+  width:100px;
   background-color: #e67e22;
   margin: 0 auto;
   margin-top: 15px;
@@ -134,4 +135,52 @@ text-align: left;
 .photo img:hover{
   opacity: 1;
   transform: scale(1)
+}
+/*mobile*/
+.col-mobile{
+  margin-top: 30px;
+}
+.col-mobile:first-child{
+text-align: right;
+padding-right: 3%;
+}
+.col-mobile:last-child{
+padding-left: 3%;
+}
+.iphone{
+  width: 40%;
+}
+.service-mobile div{
+  text-align: center;
+  border: 2px solid orange;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-right: 25px;
+  font-size: 150%;
+  }
+.service-mobile{
+  margin-bottom: 50px;
+}
+.btn-a img{
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+.col-md-3 img{
+  width: 105%;
+}
+h3{
+  font-size: 120%;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.icon-small{
+  color: orange;
+  margin-right: 10px;
+  font-size: 120%;
+}
+.city{
+    background: linear-gradient(to right, #add100, #7b920a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

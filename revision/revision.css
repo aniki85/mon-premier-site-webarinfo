@@ -1,0 +1,45 @@
+
+body{
+background: green;
+}
+.carre{
+margin-left: 50px 50px;
+width: 100px;
+height: 100px;
+background-color: yellow;
+border: 5px;solid:black;
+padding: 50px 50px;
+}
+.rectangle{
+width: 200px;
+height: 100px;
+background-color: red;
+border: 5px;  solid:  black;
+}
+.row-slider{
+  height: 200px;
+  background-color: blue;
+  width: 1140px;
+  margin: 0 auto;
+  padding: 10px 10px;
+
+}
+.row-produit{
+  height: 200px;
+  background-color: white;
+
+}
+.row-contact{
+  height: 200px;
+  background-color: red;
+
+
+}
+.logo{
+height: 200px;
+  background-color: yellow;
+}
+.menu{
+  height: 200px
+  background-color: blue;
+}
