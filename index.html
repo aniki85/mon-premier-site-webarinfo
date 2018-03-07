@@ -2,10 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8"/>
+  <!--script jsquery-->
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+  <!--<script src="ressource/js/script.js"></script>-->
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="vendors/css/reboot.css"/>
-  <link rel="stylesheet"  type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
   <link rel="stylesheet" type="text/css" href="ressource/css/style.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -270,76 +273,84 @@ pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla 
           </div>
       </div>
     </section>
-<!--pied de page-->
-<!--formulaire d'inscription-->
-<section>
-  <div class="row">
-    <h2>Formulaire d'inscription</h2>
-  </div>
-<div class="row">
-  <form method="post" action="#">
-    <div class="row">
-      <div class="col-md4">
-        <label for="name">Name</label>
-      </div>
-      <div class="col-md-8">
-        <input type="text" id="name" required/>
-      </div>
-    </div>
-    <div class="row">
-          <div class="col-md4">
-            <label for="email">Email</label>
-          </div>
-          <div class="col-md-8">
-            <input type="email" id="email" required/>
-          </div>
+    <section>
+        <div class="row">
+          <h2>Des questions?</h2>
         </div>
+        <div class="row">
+          <form action="#" method="post" class="contact_form">
+            <div class="row">
+              <div class="col-md-4">
+                <label for="name">Nom</label>
+              </div>
+              <div class="col-md-8">
+                <input type="text" id="name" required placeholder="Nom" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <label for="email">Email</label>
+              </div>
+              <div class="col-md-8">
+                <input type="email" id="email" required placeholder="Email" />
+              </div>
+            </div>
 
+            <div class="row">
+              <div class="col-md-4">
+                <label for="destinataire">Quel service voulez-vous contacter ?</label>
+              </div>
 
-<!--bouton-->
-<div class="row">
-  <input type="submit"  value="Envoyer"/>
-  <input type="reset"/>
-</section>
-<!--source mozilla.org-->
-<!--<footer>-->
-<!--<section>
-  <div class="row">
-    <h2>Formulaire d'inscription</h2>
-  </div>
-  <form action="/my-handling-form-page" method="post">
-    <div>
-      <label for="name">Nom Prénom:</label>
-      <input type="text" id="name" name="user_name">
-    </div>
-    <form action="/my-handling-form-page" method="post">
-      <div>
-        <label for="name">service:</label>
-        <input type="text" id="name"placeholder="selectioner votre service" name="user_name">
+              <div class="col-md-8">
+                <select id="destinataire_select">
+                  <option value="" selected>Selectionnez un service</option>
+                  <option value="s_client">Service client</option>
+                  <option value="s_achat">Service Achat</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <label>Newsletter</label>
+              </div>
+              <div class="col-md-8">
+                <input type="checkbox" id="newsletter" checked/>Je m'abonne.
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <label for="message">Message</label>
+              </div>
+              <div class="col-md-8">
+                <textarea id="message" placeholder="Insérez votre message"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Envoyer" />
+              <input type="reset" value="Effacer" />
+            </div>
+          </form>
+        </div>
+      </section>
+
+<!--pied de page-->
+    <footer>
+      <div class="row">
+        <div  class="col-md-6">
+          <ul class="footer_nav">
+            <li>CGV</li>
+            <li>Mentions légale</li>
+          </ul>
+        </div>
+        <div  class="col-md-6">
+          <ul class="footer_social">
+            <li>Facebook</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
       </div>
-      <select name="choix">
-        <option >service-mobile</option>
-        <option >service-web</option>
-        <option >Service informatique</option>
-        <option selected>Service Cafe</option>
-        <option >Service Pause</option>
-    </select>
-    <div>
-      <label for="mail">E-mail:</label>
-      <input type="email" id="mail"placeholder="votre email"maxlength="30" name="user_email">
-    </div>
-
-    <div>
-      <label for="msg">Message:</label>
-      <textarea id="msg" name="user_message"></textarea>
-    </div>
-
-    <div class="button">
-      <button type="submit">Envoyer</button>
-    </div>
-  </form>
-</section>-->
-<!--</footer>-->
+    </footer>
 
   </body>
   </html>
