@@ -3,8 +3,12 @@
 <head>
   <meta charset="utf-8"/>
   <!--script jsquery-->
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-  <!--<script src="ressource/js/script.js"></script>-->
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="ressource/js/script.js"></script>
+  <script src="vendors/js/jquery.waypoints.js"></script>
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="vendors/css/reboot.css"/>
@@ -20,17 +24,24 @@
 <!--corp de page -->
 <body>
   <header>
+
+<!--navigation-->
+
     <nav>
       <div class="row">
-        <img class="logo1"src="ressource/image/logo1.png" alt="logo mangas">
-        <ul class="main-nav">
-          <li><a href="#livres">livres</a></li>
-          <li><a href="#">jeux</a></li>
-          <li><a href="#">dvd</a></li>
-          <li><a href="#">contact</a></li>
+        <img class="logo" src="ressource/css/img/logo.png" alt="logo arinfo">
+        <img class="logo-black" src="ressource/css/img/logo-black.png" alt="logo arinfo">
+        <ul class="main_nav">
+          <li><a class="js-scroll-livres" href="#">Livres</a></li>
+          <li><a href="#">DVD</a></li>
+          <li><a href="#">Jeux vidéo</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </nav>
+
+<!--fin de navigation-->
+
     <div class="manga-text-box">  <!-- première rangé -->
       <h1>Site de mangas</h1>
       <a class="btn btn-full"href="#">shonen</a>
@@ -38,7 +49,7 @@
     </div>
   </header>
   <!--les livres  -->
-  <section  id="livres">
+  <section   class="js--waypoint-livres  js-section-livres">
     <div class="row">
       <h2>les nouveautés</h2>
       <p  class="long-copy">les nouvelles sortie de mars 2018</p>

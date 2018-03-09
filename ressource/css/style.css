@@ -76,28 +76,67 @@ h2::before{
 }
 /*----------bouton fin------*/
 
-
 /*-------logo------*/
-.logo1{
-  height: 100px;
+
+/*-------menu navigation------*/
+/* -----------LOGO ET MENU----------- */
+
+
+
+.logo{
+  height: 70px;
   float: left;
   margin-top: 30px;
 }
-/*-------menu navigation------*/
-.main-nav{
-  list-style: none;
+
+.logo-black {
+  display: none;
+  height: 80px;
+  width: auto;
+  float: left;
+  margin: 20px 0;
+}
+.sticky .logo {
+  display: none;
+}
+
+.sticky .logo-black {
+display: block;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba( 255, 255, 255, 0.9);
+  z-index: 9999;
+  box-shadow: 0 2px 2px #eee;
+}
+
+.sticky .main_nav li a {
+  color: #555;
+  text-decoration: none;
+  font-size: 80%;
+  margin-top: 40px;
+}
+
+.main_nav {
   float: right;
+  list-style: none;
   margin-top: 30px;
 }
-.main-nav li{
-display: inline-block;
-margin-left: 40px;
-text-transform: uppercase;
+
+.main_nav li {
+  display: inline-block;
+  margin-left: 40px;
+  text-transform: uppercase;
 }
-.main-nav li  a{
+
+.main_nav li a {
+  color: black;
   text-decoration: none;
-  color: #fff;
-  font-size: 90%;
+  font-size: 90%
 }
 /*-------bootstrap icone------*/
 .col-md-3{
